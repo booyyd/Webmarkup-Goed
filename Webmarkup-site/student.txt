@@ -1,0 +1,3 @@
+student name : Boyd Gerritsen
+student number : 634641
+student class : INF1Sc

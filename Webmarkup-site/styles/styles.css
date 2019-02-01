@@ -1,0 +1,314 @@
+html{
+    background: url(../images/background.jpeg);
+    -Webkit-background-size: cover;
+    -Moz-background-size: cover;
+    -O-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: "Arial","Helvetica";
+    text-align: center;
+    font-size: 3em;
+    color: #ffffff;
+    outline: inherit;
+    margin:0;
+    line-height: 100px;
+}
+
+h2{
+    margin: 0;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+
+nav {
+    background: #444;
+    width: 100%;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Arrange list items in horizontal line */
+    list-style-type: none; /* We don't want bullets on our items */
+    margin: 0;
+    padding: 4px 0; /* Sets height of nav bar */
+}
+    nav ul li:hover {
+        background: #03ADDF; /* Items' hover bg color */
+    }
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px;
+    font-size: 1em;
+}
+    nav ul li a:hover {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+
+
+
+
+.container{
+    width: 38vw;
+    margin: 0 auto;
+}
+
+.home_text{
+   background-color: #3568ba;
+  color: #ffffff;
+  margin: 0;
+  text-align: center;
+    font-size: 2em;
+    font-family: "Helvetica";
+}
+
+.text{
+   background-color: #3568ba;
+  color: #ffffff;
+  margin: 0;
+  text-align: center;
+    font-size: 1em;
+}
+
+.product{
+    background-color: #3568ba;
+  color: #ffffff;
+  margin: 0;
+  text-align: center;
+    font-size: 2.2em;
+}
+
+.contact{
+    background-color: #3568ba;
+  color: #ffffff;
+  margin: 0;
+  text-align: center;
+    font-size: 2em;
+    
+}
+
+.contact_container{
+    width: 100%;
+    height: 450px;
+    background-color:#e6e6e6;
+}
+
+.product1{
+    background: url(../images/product1.jpg);
+}
+
+.product2{
+    background: url(../images/product2.jpg);
+}
+
+.product3{
+    background: url(../images/product3.jpg);
+}
+
+.product4{
+    background: url(../images/product4.jpg);
+}
+
+.product5{
+    background: url(../images/product5.jpg);
+}
+
+.product6{
+    background: url(../images/product6.jpg);
+}
+
+.product7{
+    background: url(../images/product7.jpg);
+}
+
+.product8{
+    background: url(../images/product8.jpg);
+}
+
+.product9{
+    background: url(../images/product9.jpg);
+}
+
+.product10{
+    background: url(../images/product10.jpg);
+}
+
+.product11{
+    background: url(../images/product11.jpg);
+}
+
+.product12{
+    background: url(../images/product12.jpg);
+}
+
+
+
+.product_container{
+    background-color: #ffffff;
+    height: 602px;
+    width: 38vw;
+    padding-top: 3px;
+}
+
+.bg_product{
+    height: 130px;
+    width: 165px;
+    margin: 8px;
+    background-size: cover;
+    outline: 1px solid #778899;
+    float: left;
+    background-color: #ffffff;
+    background-position: center;
+}
+
+
+
+.bg1 {
+    background: url(../images/product3.jpg);
+}
+
+.bg2{
+    background: url(../images/product8.jpg);
+}
+
+.bg3{
+    background: url(../images/product6.jpg);
+    background-position: bottom center;
+}
+
+.bg4{
+    background: url(../images/product9.jpg); 
+}
+
+.bg5{
+    background: url(../images/companylogoBG.jpg);
+}
+
+.bg {
+  height: 230px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.contact_container{
+    background-color:#ffffff;
+    height: 500px;
+    width: 38vw;
+}
+
+.contact_border{
+    outline: 1px solid #778899;
+    margin: 12;
+    width: 90%;
+    margin-left: 13px;
+        
+}
+
+
+
+.product_box{
+    background-color: whitesmoke;
+    background-size: cover;
+}
+.form{
+    font-family: "arial";
+    font-size: 1.8 em;
+    position: 15px 10px;
+    max-width: 100%;
+    margin:0;
+    padding: 15px;
+    color: #778899;
+}
+
+.form h3{
+    padding:3px;
+}
+
+
+.pos_form{
+    position: center;
+    padding-left: 30px;
+    width: 90%;
+}
+
+.form_control{
+    width: 90%;
+    height: auto;
+    border-right: 10px;
+    border: 1px solid #778899;
+    font-size: 15px;
+    margin-bottom: 16px;
+    font-family: "Arial";
+    margin: 12px;
+    
+}
+.form_control_dropdown{
+    width:90%;
+    border-right: 10px;
+    height: auto;
+    border: 1px solid #CCC;
+    font-size: 15px;
+    margin-bottom: 16px;
+}
+.form_control_submit{
+    width: 90%;
+    background-color: #03ADDF;
+    color: white;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 15px;
+    margin-bottom: 16px;
+    position: center;
+}
+
+
+.bgheader{
+    height: 100px;
+    width: 100%;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+#error{
+    font-size: 4em;
+    color:#f44242;
+}
+
+
+footer{
+    color: white;
+    text-align: center;
+    background-color: #000000;
+}
+
+
+
